@@ -1,0 +1,493 @@
+font-family: 'Poppins', sans-serif;
+
+/* ----------------------
+        SIDEBAR NAV
+---------------------- */
+.sidebar-container {
+    background-color: whitesmoke;
+    color: #344356;
+    position: fixed;
+	vertical-align: top;
+	height: 100%;
+    width: 180px;
+    padding: 40px 40px 40px 40px;
+    top: 0;
+    left: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.sidebar-container img {
+    min-width: 100%;
+}
+
+.sidebar-container a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    line-height: 75%;
+}
+
+.sidebar-container a:hover {
+    color: #344356;
+    text-decoration: underline;
+}
+
+.sidebar-h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* ----------------------
+        BODY STRUCTURE
+---------------------- */
+.section-container {
+    background: white;
+    margin-left: 250px;
+    padding: 30px 30px;
+    height: 100%;
+}
+
+.content-container {
+    background: white;
+    margin: 0 auto;
+    min-width: 350px;
+    max-width: 900px;
+    padding: 30px;
+}
+
+
+/* .aside {
+    height: 100%;
+    max-width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding: 40px 30px 40px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+} */
+
+/* .aside a {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+}
+    
+.aside a:hover {
+    color: #333333;
+} */
+/* 
+.section-content {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    max-width: 75%;
+    padding: 0% 0% 0% 25%;
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Guidelines {
+    padding: 20px 50px 20px 50px;
+    height: 100%;
+    position: relative;
+} */
+
+/* ----------------------
+        LOGOS
+---------------------- */
+.row-container-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-container-wrap img{
+    padding: 10px 20px 10px 20px;
+}
+
+/*   
+.image {
+    width: auto;
+    max-height: 100px;
+    display: inline-block;
+    padding: 25px 55px 5px 5px;
+  }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+/* ----------------------
+        TYPOGRAPHY
+---------------------- */
+
+.type {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.type-body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 175%;
+}
+
+.h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h3-subtitle {
+    font-size: 19pt;
+}
+
+.h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+}
+
+.h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.h5-subtitle {
+    font-size: 16px;
+}
+
+.h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.brandon-bold {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.brandon-medium {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.futura-medium {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.futura-bold {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.gill {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+.paragraph {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.gill-subtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+/* ----------------------
+        COLORS
+---------------------- */
+.color-item {
+    padding: 5px 10px 5px 10px;
+}
+
+.color {
+    display: inline-block;
+    min-width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 50%;
+    padding: 25px 0px 10px 15px;
+}
+
+.agriculture {
+    background-color: #759E4f;
+    /* margin: 0px 10px 0px 0px; */
+    color: white;
+}
+
+.white {
+    background-color: white;
+    box-shadow: 1px 1px 2px rgb(165, 165, 165);
+    color: black;
+}
+
+.charcoal {
+    background-color: #344356;
+    color: white;
+}
+
+.harvest-green {
+    background-color: #BBD03A;
+    color: #000000;
+}
+
+.usda-blue {
+    background-color: #3D7492;
+    color: white;
+}
+
+/* ----------------------
+        BUTTONS
+---------------------- */
+/* .button-item {
+    padding: 5px 15px 5px 15px;
+} */
+
+.normal {
+    color: white;
+    background-color: #759E4f;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 3px;
+    margin: 5px 10px 5px 10px;
+}
+
+.hover {
+    opacity: 0.75;
+}
+
+.focus {
+    border: 3px;
+    box-shadow: 0px 0px 8px #707070;
+}
+.active {
+    color: #344356;
+    background-color: #BBD03A;
+    font-weight: 500;
+}
+
+.disabled {
+    color: #344356;
+    background-color: #CCD0D4;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 3px;
+    margin: 5px 10px 5px 10px;
+}
+
+.secondary {
+    color: #759E4F;
+    background-color: white;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px;
+    min-width: 150px;
+    min-height: 50px;
+    border-width: 3px;
+    border-color: #759E4F;
+    border-radius: 3px;
+    margin: 5px 10px 5px 10px;
+}
+
+.hover-secondary {
+    background-color: #DCE7D3;
+}
+
+.focus-secondary {
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px #344356;
+}
+
+.active-secondary {
+    border-radius: 6px;
+}
+
+.disabled-secondary {
+    color: #7F7F7F;
+    border-color: #7F7F7F;
+    margin: 5px 10px 5px 10px;
+}
+
+/* ----------------------
+        ICONOGRAPHY
+---------------------- */
+.icons img {
+    max-width: 40px;
+    max-height: 40px;
+    display: inline-block;
+    padding: 0px 10px 0px 5px;
+  }
+
+  /* ----------------------
+        IMAGERY
+---------------------- */
+
+.row-container-around {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    /* padding: 10px; */
+}
+
+.row-container-around img {
+    /* padding: 0px 10px 0px 10px; */
+    margin: 10px 10px 10px 10px;
+}
+
+#Imagery {
+    margin: 0px 0px 20px 0px;
+}
+
+  /* ----------------------
+        FOOTER
+---------------------- */
+.contact {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.row-container-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row-container-center img {
+    padding: 10px 5px 10px 5px;
+}
+
+
+/* 
+====================================
+BONUS: Sets up styles for mobile breakpoint 
+====================================
+*/
+
+/* Hides mobile navigation on desktop */
+.mobile-nav {
+    display: none;
+ }
+
+ /* Sets media query for screens below 450px wide */
+ @media only screen and (max-width: 768px) {
+
+    .row-01 img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .row-03 img {
+        width: 90%;
+        height: 90%;
+    }
+
+ /* Sets media query for screens below 450px wide */
+@media only screen and (max-width: 450px) {
+
+    /* Shows Mobile Navigation Styles  */
+    .mobile-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background: whitesmoke;
+        width: 100%;
+        padding: 10px 30px 10px 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        height: 80px;
+        margin: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Sets max width for logos in mobile nav */
+    .mobile-nav img {
+        height: 50px;
+        align-content: center;
+        padding: 15px 0px 15px 0px;
+    }
+
+    /* Hides Sidebar on mobile */
+    .sidebar-container {
+       display: none;
+    }
+  
+    /* Defines mobile container content */
+    .section-container {
+        /* background: lightskyblue; */
+        margin-left: 0px;
+        margin: 50px 0px 0px 0px;
+        height: 100%;
+        padding: 30px 20px;
+    }
+
+    .content-container {
+        /* padding: 30px 15px 30px 15px; */
+        margin: 0px -20px 0px -20px;
+    }
+
+    /* Sets Button Style */
+    /* .button-item {
+    padding: 5px 5px 5px 0px;
+} */
+
+    /* Sets Icon Style  */
+    .icons img {
+    padding: 0px 10px 5px 0px;
+  }
+
+    /* Sets Type Styles */
+    h1 {font-size: 1.6em;
+    }
+
+    /* Sets Imagery Size */
+    .row-container-around img {
+        width: 100%;
+        height: 100%;
+        margin: 10px 0px 0px 0px;
+    }
